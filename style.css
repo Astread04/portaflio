@@ -1,15 +1,40 @@
 /*importar*/
 :root{ 
-    --color-primary: #43823a;
-    --color-secondary: #0781ec;
-    --color-tertiary: #0056b3;
+    --color-primary: #ffffff;
+    --color-secondary: rgba(238, 187, 195, 1);
+    --color-tertiary:rgba(35, 41, 70, 1) ;
+    
 }
+body.main{
+    
+    /* background-color: #232946; */
+  }
+  .bg-morado{
+    padding: 20px 50px;
+    color: var(--color-primary);
+    background-color: var(--color-tertiary)
+  }
+  .bg-rosa{
+    padding: 20px 50px;
+    color: var(--color-primary);
+    background-color: var(--color-secondary)
+  }
 h1.title {
-    .josefin-sans-<uniquifier> 
+        color: var(--color-primary);
         font-family: "Josefin Sans", sans-serif;
         font-optical-sizing: auto;
         font-style: normal;
-      
+        font-weight: 650;
+        font-size: 400%;
       }
-  
+      h2.subtitulo {
+        
+          font-family: "Josefin Sans", sans-serif;
+          font-style: normal;
+          font-size: 300%;
+          font-weight: 700;
+          text-align: center;
+        }
+       
+
 
