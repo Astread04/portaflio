@@ -4,18 +4,12 @@
     --color-secondary: #0781ec;
     --color-tertiary: #0056b3;
 }
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 h1.title {
-    font-family: "Nunito", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    color: var(--color-primary);
-}
-h4.subtitulo {
-    font-family: "Nunito", sans-serif;
-    font-optical-sizing: auto;
-
-    font-style: normal; 
-    color: var(--color-primary); 
-}
+    .josefin-sans-<uniquifier> 
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+      
+      }
+  
 
