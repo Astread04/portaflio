@@ -3,6 +3,7 @@
     --color-primary: #ffffff;
     --color-secondary: rgba(238, 187, 195, 1);
     --color-tertiary:rgba(35, 41, 70, 1) ;
+    --color-quaternary: rgba(184, 193, 236, 1);
     
 }
 body.main{
@@ -19,6 +20,21 @@ body.main{
     color: var(--color-primary);
     background-color: var(--color-secondary)
   }
+  .proyectos{
+    padding: 20px 50px;
+    
+    background-color: var(--color-quaternary);
+  }
+  .cuadrom{
+    background-color: var(--color-tertiary);
+    padding: 0.5rem 3rem;
+    max-width: fit-content;
+    margin: auto;
+    border-radius: 15px;
+  }
+  .mifoto{
+    align-self: center;
+  }
 h1.title {
         color: var(--color-primary);
         font-family: "Josefin Sans", sans-serif;
@@ -27,6 +43,7 @@ h1.title {
         font-weight: 650;
         font-size: 400%;
       }
+      
       h2.subtitulo {
         
           font-family: "Josefin Sans", sans-serif;
@@ -34,7 +51,18 @@ h1.title {
           font-size: 300%;
           font-weight: 700;
           text-align: center;
+         
         }
+        h3.subdet {
+        
+          font-family: "Josefin Sans", sans-serif;
+          color: var(--color-secondary);
+          font-style: normal;
+          font-size: 150%;
+          font-weight: 100%;
+          text-align: center
+        }
+
        
 
 
