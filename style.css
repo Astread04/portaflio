@@ -10,6 +10,21 @@ body.main{
     
     /* background-color: #232946; */
   }
+  .flex-container{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+    width: 100%
+  }
+  .programa{
+    background-color: var(--color-tertiary);
+    padding: 1rem;
+    width: 150px; 
+    text-align: center;
+    border-radius: 10px;
+  }
   .bg-morado{
     color: var(--color-primary);
     background-color: var(--color-tertiary)
@@ -32,6 +47,7 @@ body.main{
   .mifoto{
     padding-left: 20rem;
   }
+  
 h1.title {
         color: var(--color-primary);
         font-family: "Josefin Sans", sans-serif;
@@ -59,7 +75,7 @@ h1.title {
           font-weight: 100%;
           text-align: center
         }
-
+        
        
 
 
