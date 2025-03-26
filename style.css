@@ -20,7 +20,7 @@ body.main{
     border-radius: 4rem;
   }
   .card{
-    font-family:  "Josefin Sans";
+    font-family:  "Josefin Sans"; ;
   }
   
   .flex-container{
@@ -97,6 +97,7 @@ body.main{
     object-fit: cover; 
   }
   
+  
 h1.title {
         color: var(--color-primary);
         font-family: "Josefin Sans", sans-serif;
@@ -125,6 +126,12 @@ h1.title {
           font-size: 150%;
           font-weight: 100%;
           text-align: center
+        }
+
+        h4.subtitulo {
+          color: var(--color-tertiary);
+          font-family: "Josefin Sans"; 
+          font-size:300%; 
         }
         
        
