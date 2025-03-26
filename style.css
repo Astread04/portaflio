@@ -17,6 +17,10 @@ body.main{
     padding: 10px 20px;
     font-family:"Josefin Sans", sans-serif;
     font-size: 30px;
+    border-radius: 4rem;
+  }
+  .card{
+    font-family:  "Josefin Sans";
   }
   
   .flex-container{
@@ -24,7 +28,7 @@ body.main{
     flex-direction: row;
     justify-content: space-around;
     align-items: center; 
-    width: 100%
+   
   }
   .programa{
     background-color: var(--color-tertiary);
