@@ -35,8 +35,6 @@ body.main{
     height: 250px;
     align-items: center;
     border-radius: 100px;
-    padding-bottom: 3rem;
-    font-family: "Josefin Sans"; 
   }
   .circulo {
     width: 130px;
@@ -46,6 +44,15 @@ body.main{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 3rem;
+    
+  }
+  .porcentaje{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Josefin Sans"; 
+    font-size: 2rem;
     
   }
   .bg-morado{
