@@ -10,15 +10,24 @@ body.main{
     
     /* background-color: #232946; */
   }
+ .navbar.nav-bar{
+  background-color: var(--color-secondary);
+  display: flex;
+  align-items:center;
   
+  
+ }
   .navbar {
-    background-color: var(--color-secondary);/* Color morado */
-    height: 100px; /* Ajustar la altura */
-    padding: 10px 20px;
+    background-color: var(--color-secondary);
+    height: 70px;
+    width: 100%;
+    padding: 10px 10px;
     font-family:"Josefin Sans", sans-serif;
-    font-size: 30px;
-    border-radius: 4rem;
+    font-size: 20px;
+    border-radius: 1.5rem;
+   
   }
+
   .card{
     font-family:  "Josefin Sans"; ;
   }
@@ -26,8 +35,11 @@ body.main{
   .flex-container{
     display: flex ;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center; 
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
    
   }
   .programa{
@@ -48,7 +60,7 @@ body.main{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 3rem;
+    padding-bottom: 0.5rem;
     
   }
   .porcentaje{
@@ -68,6 +80,7 @@ body.main{
   .bg-rosa{
     color: var(--color-primary);
     padding-top: 2rem;
+    
     background-color: var(--color-secondary)
   }
   .Proyectos{
