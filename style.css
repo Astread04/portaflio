@@ -8,7 +8,7 @@
 }
 body.main{
     
-    /* background-color: #232946; */
+     background-color: var(--color-quaternary); 
   }
   .navlink :active{
     font-weight: 300;
@@ -84,7 +84,7 @@ body.main{
     
     background-color: var(--color-secondary)
   }
-  .Proyectos{
+  .Proyectos {
     color: var(--color-primary);
     background-color: var(--color-quaternary);
   }
