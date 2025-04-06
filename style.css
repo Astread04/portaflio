@@ -168,7 +168,12 @@ h6.subtitulo {
   align-items: center;
 }
 
-/* MEDIA QUERIES  */
+.custom-gutter {
+  --bs-gutter-x: 0rem;
+  --bs-gutter-y: 0rem;
+}
+
+/* ===MEDIA QUERIES ===================== */
 
 @media (max-width: 768px) {
 /* HERRAMIENTAS */
@@ -271,7 +276,14 @@ h6.subtitulo,
 .subcont {
   font-size: 120%;
 }
+
+  .custom-gutter {
+    --bs-gutter-x: 0.5rem;
+    --bs-gutter-y: 0.5rem;
+  }
 }
+
+
 
 
       .my-carousel {
