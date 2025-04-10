@@ -44,6 +44,20 @@ body.main {
   gap: 2rem;
 }
 
+.wave-svg-container {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave-svg-container svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
 .programa {
   background-color: var(--color-tertiary);
   display: flex;
@@ -186,7 +200,18 @@ h6.subtitulo {
   --bs-gutter-x: 0rem;
   --bs-gutter-y: 0rem;
 }
+.programa .circulo img {
+  width: 60%;
+  max-width: 130px;
+  height: auto;
+  object-fit: contain;
+}  
 
+.nombre-programa {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  color: var(--color-tertiary)
+}
 /* ===MEDIA QUERIES ===================== */
 
 @media (max-width: 768px) {
@@ -215,6 +240,7 @@ h6.subtitulo {
     width: 250px;
     height: 250px;
   }
+
 
   h1.title {
     font-size: 300%;
