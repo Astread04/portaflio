@@ -53,7 +53,7 @@ body.main {
 .wave-svg-container svg {
   display: block;
   width: 100%;
-  height: auto;
+  height: 1%;
 }
 
 
@@ -98,7 +98,6 @@ body.main {
 
 .bg-morado {
   padding-top: 2rem;
-  padding-bottom: 2rem;
   color: var(--color-primary);
   background-color: var(--color-tertiary);
 }
